@@ -1,0 +1,38 @@
+Nightly application cheese report
+
+== Status
+
+                           today
+Project A [] [] [] [] [] [] []    { A summary of the past week of test smokes }
+Project B [] [] [] [] [] [] []    { on the projects with tests. Sorted by     }
+Project C [] [] [] [] [] [] []    { decreasing amount of 'surprise', meaning  }
+Project D [] [] [] [] [] [] []    { new failures per recent commits.          }
+
+{ The boxes above are solid, and either red or green. Oh, and the whole }
+{ layout looks very crisp and modern, in case you're wondering.         }
+
+New failures:
+
+== Project C
+
+not ok 38 - The pink elephants turn blue when refrigerated.
+     got: "chartreuse"
+expected: "blue"
+
+{ The above text is in a monospace font, but subtly syntax-highlighted so as }
+{ to assert that Emmenthaler knows to pick out the components of the         }
+{ failure.                                                                   }
+
+== King of the Hill
+
+[G] Project D     { The symbols in the leftmost column are cute little }
+[S] Project A     { icons of medals, in gold, silver, and bronze.      }
+[B] Project B
+[ ] mmmmmmmmm
+[ ] mmmmmmmmm     { There's no score shown, and the algorithm for      }
+[ ] mmmmmmmmm     { summing up the different sub-scores for each       }
+[ ] mmmmmmmmm     { project need not be known. One may click on any    }
+[ ] mmmmmmmmm     { given line to be shown a status page for that      }
+[ ] Project C     { project, with progress bars showing sub-scores     }
+[ ] mmmmmmmmm     { (along with detailed descriptions of what they     }
+                  { signify).                                          }
